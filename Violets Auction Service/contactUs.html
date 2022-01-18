@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+<link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+	<div class = "navPosition"><nav class ="navbutton" >
+		<style>a:hover { 
+			color: white;
+			background: hsla(246,62%,46%,1.00); } 
+		</style>
+				<a href="index.html" class="navbutton" id = "button1">Home</a>  &nbsp;
+				<a href="upcomingAuctions.html" class="navbutton" id = "button2">Auction News</a>  &nbsp;
+				<a href="aboutUs.html" class="navbutton" id = "button4">About Us</a> &nbsp;
+				<a href="contactUs.html" class="navbutton" id = "button5">Contact Us</a>
+			</nav>
+	</div>
+
+<div id="contactContent">
+	<div id="contentWrap">
+		<div id="conHead"><h1 id = "contactHeading">CONTACT US</h1></div>
+		
+		<div class = "content" id = "contactHead">
+			<div class = "formContainer">
+			
+				<img src = "Images/ContactusBubble.jpg" alt="Contact Us picture" id="contactPic">
+				<form class="siteForms" id ="contactForm" action="mailto:awisner95@gmail.com" method="post" enctype="multipart/form-data">
+					<label for="fname">First name:</label><br>
+					<input type="text" id="fname" name="fname"><br>
+					<label for="lname">Last name:</label><br>
+					<input type="text" id="lname" name="lname"><br>
+					<label for="pnum">Phone Number:</label><br>
+					<input type="tel" id="pnum" name="pnum" placeholder='888-123-4567' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+					<label for='email'>Email</label><br>
+					<input type="email" id="formEmail" name="fEmail"><br>
+					<label for="message">Message:</label><br>
+					<textarea id="message" name="message" rows="5" placeholder="Type message here..."></textarea><br><br>
+					<input type="submit" id="sendmess" value="Send Message">
+				</form> 
+
+			</div>
+
+
+		</div>
+
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+		<div class="elfsight-app-5bcca44d-cf94-43ad-a39c-09934ac98af9"></div>
+
+		<div id="locateBlock">
+			<h2 id="locateus">FIND US</h2>
+			<p id="address">13181 Dunnings Hwy,<br> Claysburg, PA 16625</p>
+			<p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.1882119084894!2d-78.45726788474619!3d40.29377977937949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cbbb5dd3abc89d%3A0xac7ec8fd9054e95!2s13181%20Dunnings%20Hwy%2C%20Claysburg%2C%20PA%2016625!5e0!3m2!1sen!2sus!4v1639275907037!5m2!1sen!2sus" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+	
+		</div>
+	
+	</div>
+
+<footer id="footer">© 2021 Violets Auction Service</footer>
+
+</div>
+</body>
+</html>

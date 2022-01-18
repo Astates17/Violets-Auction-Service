@@ -1,0 +1,524 @@
+@charset "UTF-8";
+/* CSS Document */
+/*All pages CSS _______________________________ */
+body{
+	background-color: hsla(246,62%,46%,1.00);
+	width: vw;
+	height: vh;
+	margin: 0px 0px 0px 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow-x: hidden;
+}
+
+
+
+#contentWrap{
+	padding-bottom: 2.5rem;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.navPosition{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	margin left: auto;
+	margin right: auto;
+	text-align: center;
+	z-index: 10;
+}
+
+.navbutton{
+	font-family: sans-serif; 
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	flex-direction: row;
+	flex: 0 1 300%;
+	
+}
+
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 2.5rem;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#homefoot{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	top:1795px;
+	width: 100%;
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#newsfooter{
+	position: fixed;
+	justify-content: center;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+
+/*Home page CSS______________________*****************************/
+.parent {
+	position: relative;
+	margin left: 0;
+	margin right: 0;
+	margin-bottom: 100px;
+	padding: 0;
+	top: 65px;
+	width: 100vw;
+	min-height: 100vh;
+	
+}
+
+
+
+.contentHome{
+	display: flex;
+	justify-content: center;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
+	width: vw;
+	height: vh;
+}
+
+
+#homelogo{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	margin-right: 0;
+	margin-left: 0;
+	top:0px;
+	width: 600px;
+	height: 600px;
+	
+}
+
+
+#homeinfo{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	top: 500px;
+	width: 75vw;
+	height: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: 500;
+	letter-spacing: .02rem;
+	line-height: 25px;
+	text-align: center;
+
+}
+
+#pastAuc{
+	position: relative;
+	margin left: 0;
+	margin right: 0;
+	margin-bottom: 200px;
+	top: 700px;
+	left: auto;
+	width: vw;
+	height:600px;
+	background-color: black;
+}
+
+#gabble{
+	position: relative;
+	display: flex;
+	justify-content:first baseline;
+	top: 10px;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	opacity: 100%;
+	z-index: 1;
+}
+
+#services{
+	display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hmList {
+
+	display: block;
+	flex: 0 1 auto; /* Default */
+	list-style-type: none;
+	
+}
+
+.pservices{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: .2rem;
+	
+}
+
+#serviceH1 {
+	display: flex;
+	justify-content: center;
+	letter-spacing: .2rem;
+	font-weight: 300;
+	font-family: sans-serif;
+	color: white;
+
+}
+
+#reviews{
+	background-color: black;
+	z-index: 0;
+	top: 500px;
+	height: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/*CONTACT page CSS___________________*********************/
+
+#contactContent{
+	position: relative;
+  	min-height: 100vh;
+}
+
+#conHead{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: vw;
+	height: auto;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+
+}
+
+#contactHead{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 0;
+	padding-left: 0;
+	top: 17px;
+	width: vw;
+	height: 590px;
+	color: white;
+}
+
+#contactHeading {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: 90px;
+	letter-spacing: .2rem;
+	font-weight: 600;
+	font-family: sans-serif;
+	color: white;
+	width: 8em;
+}
+
+#contactPic {
+	position: relative;
+	width: 500px;
+	height: auto;
+	padding: 0%;
+	margin-right: 80px;
+	opacity: 50%;
+	border-radius: 70em;
+
+}
+
+form{
+	position: relative;
+	display: inline-block;
+	width: 500px;
+	height: auto;
+	padding: 0%;
+	margin-left: 80px;
+	font-family: sans-serif;
+	letter-spacing: .1rem;
+	font-weight: 500;
+}
+
+input[type=text] {
+	border: 2px solid hsla(246,62%,46%,1.00);
+	border-radius: 5px;
+	background-color: gray;
+	color: black;
+	font-family:sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+
+}
+
+input[type=email] {
+	border: 2px solid hsla(246,62%,46%,1.00);
+	border-radius: 5px;
+	background-color: gray;
+	color: black;
+	font-family:sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+
+}
+
+input[type=tel] {
+	border: 2px solid hsla(246,62%,46%,1.00);
+	border-radius: 5px;
+	background-color: gray;
+	color: black;
+	font-family:sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+
+}
+
+#message{
+	border: 2px solid hsla(246,62%,46%,1.00);
+	border-radius: 5px;
+	background-color: gray;
+	color: black;
+	font-family:sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+
+}
+#sendmess {
+	background-color: rgb(21, 216, 21);/*gray;*/
+	border-radius: 50px;
+	border-color: rgb(21, 216, 21);
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	/*border-color: hsla(246,62%,46%,1.00);*/
+	font-family:sans-serif;
+	font-weight: 500;
+	letter-spacing: .1rem;
+	font-size: 20px;
+
+}
+
+.formContainer {
+	position: relative;
+	justify-content: center;
+	margin left: auto;
+	margin right: auto;
+	width: auto;
+	height: auto;
+	padding: 170px;
+}
+
+
+.formContainer input, .formContainer text, .formContainer tel, .formContainer textarea{
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+::placeholder {
+	color: darkslategrey;
+}
+
+#locateus{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	color: white;
+	letter-spacing: .2rem;
+	font-weight: 600;
+
+}
+
+#address{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	color: white;
+	letter-spacing: .1rem;
+	font-weight: 500;
+}
+
+#locateBlock{
+	position: relative;
+	display: block;
+	justify-content: center;
+	margin-top: 0;
+	width: vw;
+	height: auto;
+}
+
+/*---------------------About Us CSS--------------------------------*/
+
+.aboutContent {
+	position: relative;
+	margin left: 0;
+	margin right: 0;
+	margin-bottom: 43vh;
+	padding: 0;
+	top: 65px;
+	width: 100vw;
+	height: 50vh;
+}
+
+
+#gablePicParent {
+	display: flex;
+	justify-content: center;
+}
+
+#gablePic {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	top: 730px;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	opacity: 80%;
+	mix-blend-mode: darken;
+	z-index: 2;
+}
+
+
+#adam {
+	position: absolute;
+	left: 10%;
+	top: 100px;
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+	z-index: 3;
+}
+
+#whiteBg {
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100vw;
+	height: 500px;
+	opacity: 20%;
+	z-index: 0;
+}
+
+#aboutTxt {
+	position: absolute;
+	left: 40%; /*40vw;*/
+	top: 185px;
+	width: 850px;
+	height: auto;
+	font-family: sans-serif;
+	font-size: 18pt;
+	letter-spacing: .01em;
+	line-height: 20pt;
+	color: whitesmoke;
+	z-index: 3;
+
+}
+
+.aboutContent h1 {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	letter-spacing: .2rem;
+	font-weight: 600;
+}
+
+#meetAdam {
+	position: absolute;
+	left: 450px; /*40vw;*/
+	top: 80px;
+	width: 950px;
+	height: auto;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 40pt;
+	letter-spacing: .2rem;
+	line-height: 30pt;
+	color: whitesmoke;
+	z-index: 3;
+}
+
+/*_____________________Auctions News_____________*/
+
+#pageLink{
+	position:relative;
+	display: flex;
+	justify-content: center;
+	width: vw;
+	height: 200px;
+	top: 80px;
+	margin-bottom: 275px;
+	z-index: 0;
+}
+
+/*.upcontent{
+	position: relative;
+	width: vw;
+	height: vh;
+	display: flex;
+	justify-content: center;
+	margin left: 0;
+	margin right: 0;
+	padding: 0;
+
+}*/
+
+#upAuc{
+	position: relative;
+	display:flex;
+	justify-content: center;
+	top: 100px;
+	margin-bottom: 100px;
+}
+
+#contentAucNews{
+	position: relative;
+  	min-height: 100vh;
+}
